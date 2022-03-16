@@ -23,3 +23,5 @@ gsutil -q -m cp -r gs://mt3/checkpoints .
 
 # copy soundfont (originally from https://sites.google.com/site/soundfonts4u)
 gsutil -q -m cp gs://magentadata/soundfonts/SGM-v2.01-Sal-Guit-Bass-V1.3.sf2 .
+
+pip install jax jaxlib librosa seqio t5 t5x note_seq
